@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Dior Homme",
+        "author": "Christian Dior",
+        "price": 10,
+        "img": "https://amoramarket.com.mx/pub/media/catalog/product/cache/666be7c0f9bce978b79d349b04acd66c/c/0/c099600782_3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Jean Paul Gaultier le male",
+        "author": "Jean Paul Gaultier",
+        "price": 20,
+        "img": "https://amoramarket.com.mx/pub/media/catalog/product/cache/666be7c0f9bce978b79d349b04acd66c/3/1/31753_1_3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "212 VIP",
+        "author": "Carolina Herrera",
+        "price": 15,
+        "img": "https://amoramarket.com.mx/pub/media/catalog/product/cache/666be7c0f9bce978b79d349b04acd66c/6/5/65116885_1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Aventus",
+        "author": "Creed",
+        "price": 35,
+        "img": "https://amoramarket.com.mx/pub/media/catalog/product/cache/666be7c0f9bce978b79d349b04acd66c/1/1/1110042_1.jpg"
+    }
+]

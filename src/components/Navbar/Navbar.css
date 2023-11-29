@@ -1,0 +1,35 @@
+.nav-container{
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+  opacity: opacity(0%);
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+
+}
+.navbar-logo{
+  justify-self: start;
+  margin-left: 20px;
+  color: #08eecb;
+  margin-top: 4vh;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.navbar-logo:hover {
+  color: #ff0000; 
+}
+.seecarrito{
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 4vh;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.seecarrito:hover {
+  color: #00ff00; 
+}
