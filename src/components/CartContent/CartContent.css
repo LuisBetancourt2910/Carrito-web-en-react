@@ -6,15 +6,39 @@
   flex-wrap: wrap;
   width: 100%;
 }
-.cartContent > img {
+
+.cartContent>img {
   width: 1%;
   max-width: 1px;
   margin-bottom: 1px;
-}   
+}
+
 .cartTotal {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.counter-button {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  border-width: 0.1px;
+  padding: 5px;
+  margin: 1px;
+  cursor: pointer;
+
+}
+
+.cart-delete-button {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  border-width: 0.1px;
+  padding: 5px;
+  margin: 1px;
+  cursor: pointer;
+
 }

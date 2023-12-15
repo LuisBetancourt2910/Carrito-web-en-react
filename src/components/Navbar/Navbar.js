@@ -1,12 +1,17 @@
-import './Navbar.css';
 import { Link } from 'react-router-dom';
+import './Navbar.css';
+import TotalItems from '../CartContent/TotalItems';
 
 const Navbar = () => {
   return (
     <div className='nav-container'>
       <nav className='navbar'>
-        <h1 className='navbar-logo'>Shop.</h1>
-        <Link className='seecarrito' to={'/cart'}>🛒</Link>
+        <Link to={'/'}>
+          <h1 className='navbar-logo'>Tienda</h1>
+        </Link>
+        <Link className='seecarrito' to='/cart'>
+          🛒<TotalItems />
+        </Link>
       </nav>
     </div>
   );
